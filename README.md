@@ -18,7 +18,7 @@ DGX style switching of a ATEM Television Studio using M2M virtual device communi
 - ATEM Switcher-dgx.axs
 
 Supports the some of the DGX switching commands:
-- CI<input>O<output>
+- CI\<input\>O\<output\>
 - ?MODEL
 - ?OUTPUT-VIDEO
 - ?VIDOUT_RES_REF
