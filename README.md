@@ -17,7 +17,7 @@ Panel looks simlar to the ATEM Software Control system and supports selecting in
 DGX style switching of a ATEM Television Studio using M2M virtual device communication
 - ATEM Switcher-dgx.axs
 
-Supports the some of the DGX switching commands:
+Supports some of the DGX switching commands:
 - CI\<input\>O\<output\>
 - ?MODEL
 - ?OUTPUT-VIDEO
