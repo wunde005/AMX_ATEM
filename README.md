@@ -9,18 +9,18 @@ It can be found here:  https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineeri
 Include file that contains the main ATEM switcher code
 - ATEM Switcher.axi
 
-This repo also includes the touch panel demo I created to test the fuctionality.  It also contains the master source file I used to make my DGX800 controller look similar to a DGX switcher on a virtual device.  This was done to minimize the changes I need to make on my main program running on an NX2200. It also maps the inputs to match my original setup, again to minimize changes.
+This repo also includes the touch panel demo I created to test the fuctionality during development.  It also contains the master source file I used to make my DGX800 controller look similar to a DGX switcher on a virtual device of M2M communication.  This was done to minimize the changes I need to make on my main program running on an NX2200. It also maps the inputs to match my original setup, again to minimize changes.
 
 Touch panel demo:
 - ATEM Switcher Demo.axs
 - ATEM Demo.TP4 (for an MST-701)
 
-Panel looks simlar to the ATEM Software Control system and supports selecting inputs for program and preview along with cutting.  It will also display the the switchers model, version, ip address and output resolution along with the short names for the inputs.
+The panel looks simlar to the ATEM Software Control system and supports selecting inputs for program and preview along with cutting.  It will also display the the switchers model, version, ip address and output resolution along with the short names for the inputs.
 
-DGX style switching of a ATEM Television Studio using M2M virtual device communication
+DGX style switching of a ATEM Television Studio using M2M virtual device communication:
 - ATEM Switcher-dgx.axs
 
-Supports some of the DGX switching commands:
+Supports a few of the DGX switching commands:
 - CI\<input\>O\<output\>  output 1 is program, output 2 is preview, output 0 will trigger a cut
 - ?MODEL
 - ?OUTPUT-VIDEO
