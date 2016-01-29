@@ -6,14 +6,11 @@ The include file is a port of the Blackmagic Design ATEM Client library for Ardu
 Kasper Skårhøj, SKAARHOJ K/S, kasper@skaarhoj.com 
 It can be found here:  https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoLibs
 
-
-
 Include file that contains the main ATEM switcher code
 - ATEM Switcher.axi
 
-It has only been tested with an ATEM Television Studio.
+This repo also includes the touch panel demo I created to test the fuctionality.  It also contains the master source file I used to make my DGX800 controller look similar to a DGX switcher on a virtual device.  This was done to minimize the changes I need to make on my main program running on an NX2200. It also maps the inputs to match my original setup, again to minimize changes.
 
-	
 Touch panel demo:
 - ATEM Switcher Demo.axs
 - ATEM Demo.TP4 (for an MST-701)
