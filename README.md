@@ -1,13 +1,18 @@
 # AMX_ATEM
 
+This is an include file that works on an AMX Netlinx Studio to control ATEM switchers. It currrently only been tested with a ATEM Television Studio.  I have tested the include file on both an NI and NX series processor.  The ATEM protocol seems to be timing sensitive, so you may run into issues if the controller this is running on is to busy to responed in a timely manner to the ACK requests.  It supports basic functionalitly, like changing the program or preview input, doing a cut, getting input long and shor names, getting the model and version.
+
+The include file is a port of the Blackmagic Design ATEM Client library for Arduino by 
+Kasper Skårhøj, SKAARHOJ K/S, kasper@skaarhoj.com 
+It can be found here:  https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoLibs
+
+
+
 Include file that contains the main ATEM switcher code
 - ATEM Switcher.axi
 
 It has only been tested with an ATEM Television Studio.
 
-This code is a port of the Blackmagic Design ATEM Client library for Arduino by
-Kasper Skårhøj, SKAARHOJ K/S, kasper@skaarhoj.com 
-https://github.com/kasperskaarhoj/SKAARHOJ-Open-Engineering/tree/master/ArduinoLibs
 	
 Touch panel demo:
 - ATEM Switcher Demo.axs
