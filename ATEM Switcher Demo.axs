@@ -37,8 +37,6 @@ DEFINE_VARIABLE
 //char test = $03
 CHAR LOCAL_INIT = 0
 
-char start_time[10]
-
 IP_ADDRESS_STRUCT MyIPAddress 
 
 (***********************************************************)
@@ -90,12 +88,6 @@ DEFINE_START
 atem_ip = '192.168.0.10'
 GET_IP_ADDRESS(0:0:0,MyIPAddress)
 send_string 0,"'startup'"
-start_time = time
-wait 100 send_string 0,"'startup 100 ',time,' ',itoa(sec_dif(start_time,time))"
-wait 200 send_string 0,"'startup 200 ',time,' ',itoa(sec_dif(start_time,time))"
-wait 600 send_string 0,"'startup 600 ',time,' ',itoa(sec_dif(start_time,time))"
-wait 1500 send_string 0,"'startup 1500 ',time,' ',itoa(sec_dif(start_time,time))"
-wait 6000 send_string 0,"'startup 6000 ',time,' ',itoa(sec_dif(start_time,time))"
 
 (***********************************************************)
 (*                THE EVENTS GO BELOW                      *)

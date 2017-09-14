@@ -1,7 +1,12 @@
 PROGRAM_NAME='ATEM Switcher-dgx'
+INCLUDE 'RoomConfig.axi'
+
+include 'ntp.axi'
+INCLUDE 'SYSLOG.AXI'
+
 #DEFINE OVERRIDE_ATEM_UPDATE
-include 'RoomConfig.axi'
 include 'ATEM Switcher.axi'
+
 
 #if_not_defined DGX_SYSTEM_ID
 define_constant
